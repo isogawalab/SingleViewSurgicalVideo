@@ -1,0 +1,19 @@
+name: sv2
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - sympy
+  - opencv
+  - pandas
+  - tqdm
+  - natsort
+  - matplotlib
+  - seaborn
+  - scipy
+  - scikit-learn
+  - numpy==1.23.1
+  - pyclustering
+  - pytorch
+  - colmap
+  - pyclustering

@@ -1,0 +1,4 @@
+PROJ_DIR="/home/yunakato/SingleViewSurgicalVideo/script/homographyTransformation/Superglue-COLMAP/"
+SUPERGLUE_DIR="/home/yunakato/SingleViewSurgicalVideo/script/homographyTransformation/SuperGluePretrainedNetwork"
+DATA_DIR="../../.././data/assets/test"
+DATASET_PATH="./data/assets/test"

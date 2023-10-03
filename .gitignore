@@ -1,0 +1,6 @@
+data/assets
+data/fig
+data/txt
+data/homographys
+*.mp4
+__pycache__
