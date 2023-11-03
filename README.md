@@ -43,7 +43,7 @@ year = {2023},
 ````
 
 ## Reference
-[1] Tomohiro Shimizu, Kei Oishi, Ryo Hachiuma, Hiroki Kajita, Yoshihumi Takatsume and Hideo Saito.: Surgery recording without occlusions by multi-view surgical videos. In: 15th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications, VISIGRAPP 2020 (VISAPP). pp. 837‒844 (2020).
+[1] Tomohiro Shimizu, Kei Oishi, Ryo Hachiuma, Hiroki Kajita, Yoshifumi Takatsume and Hideo Saito.: Surgery recording without occlusions by multi-view surgical videos. In: 15th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications, VISIGRAPP 2020 (VISAPP). pp. 837‒844 (2020).
 
 [2] Mizuki Obayashi, Shohei Mori, Hideo Saito, Hiroki Kajita and Yoshihumi Takatsume.: Multi-view surgical camera calibration with nonefeature-rich video frames: Toward 3d surgery play-back. Applied Sciences 13(4): 2447 (2023).
 
