@@ -2,7 +2,7 @@
 Code for MICCAI2023 paper entitled "High-Quality Virtual Single-Viewpoint Surgical Video: Geometric Autocalibration of Multiple Cameras in Surgical Lights".
 
 📢 UPDATES
-* 🆕 **[Dec. 2025]** Follow-up report: [https://github.com/isogawalab/SingleViewSurgicalVideo](https://arxiv.org/abs/2512.08577)
+* 🆕 **[Dec. 2025]** Follow-up report: [https://arxiv.org/abs/2512.08577](https://arxiv.org/abs/2512.08577)
 * 🌟 **[MICCAI 2025 Spotlight]** New 4DGS approach: [https://isogawa.ics.keio.ac.jp/projects/4DGS-McSL](https://isogawa.ics.keio.ac.jp/projects/4DGS-McSL)
 
 
