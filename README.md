@@ -1,6 +1,11 @@
 # Single View Surgical Video
 Code for MICCAI2023 paper entitled "High-Quality Virtual Single-Viewpoint Surgical Video: Geometric Autocalibration of Multiple Cameras in Surgical Lights".
 
+📢 UPDATES
+* 🆕 **[Dec. 2025]** Follow-up report: [https://github.com/isogawalab/SingleViewSurgicalVideo](https://arxiv.org/abs/2512.08577)
+* 🌟 **[MICCAI 2025 Spotlight]** New 4DGS approach: [https://isogawa.ics.keio.ac.jp/projects/4DGS-McSL](https://isogawa.ics.keio.ac.jp/projects/4DGS-McSL)
+
+
 ## Overview
 Occlusion-free video generation is challenging due to surgeons' obstructions in the camera field of view. Prior work (Camera Switching<sup>[1]</sup>) has addressed this issue by installing multiple cameras on a surgical light, hoping some cameras will observe the surgical field with less occlusion. However, this special camera setup poses a new imaging challenge since camera configurations can change every time surgeons move the light, and manual image alignment is required. This paper proposes an algorithm to automate this alignment task.
 Both quantitative results and a user study involving medical doctors show that our method outperforms conventional approaches.
@@ -33,14 +38,26 @@ conda activate sv2
 
 ## Citation
 If you find our work useful in your research, please consider citing our paper:
-````
+```
 @InProceedings{Kato_2023_MICCAI,
-author = {Kato, Yuna and Isogawa, Mariko and Mori, Shohei and Saito, Hideo and Kajita, Hiroki and Takatsume Yoshihumi.},
-title = {High-Quality Virtual Single-Viewpoint Surgical Video: Geometric Autocalibration of Multiple Cameras in Surgical Lights},
-booktitle = {Medical Image Computing and Computer Assisted Intervention – MICCAI 2023},
-year = {2023},
+  author = {Kato, Yuna and Isogawa, Mariko and Mori, Shohei and Saito, Hideo and Kajita, Hiroki and Takatsume Yoshihumi.},
+  title = {High-Quality Virtual Single-Viewpoint Surgical Video: Geometric Autocalibration of Multiple Cameras in Surgical Lights},
+  booktitle = {Medical Image Computing and Computer Assisted Intervention – MICCAI 2023},
+  year = {2023},
 }
-````
+```
+
+Refer to our [follow-up preprint](https://isogawa.ics.keio.ac.jp/projects/4DGS-McSL), as well:
+```
+@misc{Kato_2025_DisturbanceFree,
+  title        = {Disturbance‑Free Surgical Video Generation from Multi‑Camera Shadowless Lamps for Open Surgery},
+  author       = {Kato, Yuna and Mori, Shohei and Saito, Hideo and Takatsume, Yoshifumi and Kajita, Hiroki and Isogawa, Mariko},
+  year         = {2025},
+  eprint       = {2512.08577},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.CV},
+}
+```
 
 ## Reference
 [1] Tomohiro Shimizu, Kei Oishi, Ryo Hachiuma, Hiroki Kajita, Yoshifumi Takatsume and Hideo Saito.: Surgery recording without occlusions by multi-view surgical videos. In: 15th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications, VISIGRAPP 2020 (VISAPP). pp. 837‒844 (2020).
